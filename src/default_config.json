@@ -1,0 +1,99 @@
+{
+    "number_of_thrusters": 4,
+
+    "direction_vectors": {
+        "surge": [1,0,1,0],
+        "sway": [0,1,0,1],
+        "heave": [1,1,1,1],
+        "roll": [1,-1,1,-1],
+        "pitch": [1,1,-1,-1],
+        "yaw": [1,-1,-1,1]
+    }, 
+
+    "min_thrust": -2.9,
+    "max_thrust": 3.7,
+
+    "control_mode": {
+        "surge": "closed_loop",
+        "sway": "closed_loop",
+        "heave": "closed_loop",
+        "roll": "closed_loop",
+        "pitch": "closed_loop",
+        "yaw": "closed_loop"
+    },
+
+    "pid_params": {
+
+        "surge": {
+            "kp": 0.5,
+            "ki": 0.0,
+            "kd": 0.0,
+            "acceptabe_error": 0.1,
+            "max_integral": 0.0,
+            "max_output": 1.0,
+            "min_output": -1.0,
+            "min_integral": 0.0,
+            "frequency": 10.0
+        },
+
+        "sway": {
+            "kp": 0.5,
+            "ki": 0.0,
+            "kd": 0.0,
+            "acceptabe_error": 0.1,
+            "max_integral": 0.0,
+            "max_output": 1.0,
+            "min_output": -1.0,
+            "min_integral": 0.0,
+            "frequency": 10.0
+        },
+
+        "heave": {
+            "kp": 0.5,
+            "ki": 0.0,
+            "kd": 0.0,
+            "acceptabe_error": 0.1,
+            "max_integral": 0.0,
+            "max_output": 1.0,
+            "min_output": -1.0,
+            "min_integral": 0.0,
+            "frequency": 10.0
+        },
+
+        "roll": {
+            "kp": 0.5,
+            "ki": 0.0,
+            "kd": 0.0,
+            "acceptabe_error": 0.1,
+            "max_integral": 0.0,
+            "max_output": 1.0,
+            "min_output": -1.0,
+            "min_integral": 0.0,
+            "frequency": 10.0
+        },
+
+        "pitch": {
+            "kp": 0.5,
+            "ki": 0.0,
+            "kd": 0.0,
+            "acceptabe_error": 0.1,
+            "max_integral": 0.0,
+            "max_output": 1.0,
+            "min_output": -1.0,
+            "min_integral": 0.0,
+            "frequency": 10.0
+        },
+
+        "yaw": {
+            "kp": 0.5,
+            "ki": 0.0,
+            "kd": 0.0,
+            "acceptabe_error": 0.1,
+            "max_integral": 0.0,
+            "max_output": 1.0,
+            "min_output": -1.0,
+            "min_integral": 0.0,
+            "frequency": 10.0
+        }
+    }
+}
